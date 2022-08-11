@@ -4,7 +4,7 @@
       <li v-for="stage in stages" class="drag-column" :class="{['drag-column-' + stage]: true}" :key="stage">
         <span class="drag-column-header">
           <slot :name="stage">
-            <h2>{{ stage }}</h2>
+            <h2>{{ stage }} ABC LEANDRO</h2>
           </slot>
         </span>
         <div class="drag-options"></div>
